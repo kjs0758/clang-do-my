@@ -1,0 +1,24 @@
+[git bash 사용법]
+
+1. 아래와 같이 user.email과 user.name을 등록해야 합니다.
+  $ git config --global user.email "you@example.com"
+  $ git config --global user.name "Your Name"
+
+2. 파일의 내용을 수정하거나 생성하게 되면 등록을 해야합니다.
+  $ git add filename
+  또는 다음과 같이 하면 변경된 모든 사항을 등록합니다.
+  $ git add .
+  
+3. git 데이터베이스에 반영
+  $ git commit -m "커밋 메시지"
+  예) git commit -m "[edit] hello.c 파일을 수정"
+
+4. 서버에 전송(git push 서버이름 브랜치이름)
+   최초에는 인증을 요구하면 승인
+  $ git push origin master
+  또는
+  $ git push origin main
+  
+5. 서버에 변경된 내용을 로컬저장소 반영
+  $ git pull origin master
+  
