@@ -1,0 +1,17 @@
+라이브러리
+
+컴파일
+stdio.h (헤더파일)
+
+링크(lib)
+stdio.lib(a.obj, b.obj, c.obj)
+a.c, b.c c.c
+
+printx.h
+printx.c 
+-> printx.obj
+-> printx.lib
+
+*.dll
+
+*.so

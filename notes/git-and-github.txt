@@ -22,3 +22,12 @@
 5. 서버에 변경된 내용을 로컬저장소 반영
   $ git pull origin master
   
+=============================
+
+MSYS2
+
+pacman -Syu
+
+pacman -S w64-x86_64-gcc
+
+pacman -S mingw-w64-x86_64-toolchain
